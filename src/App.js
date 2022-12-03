@@ -1,9 +1,17 @@
 import './App.css';
+import {Routes, Route} from 'react-router-dom'
+import ParentApp from './component/ParentApp';
+import HealthApp from './component/HealthApp';
 
 function App() {
+  
   return (
     <div className="App">
-    <h1>Pwa App 2</h1>
+      <Routes>
+        <Route path='/' element={<ParentApp/>} />
+        <Route path='/Health' element={<HealthApp />} />
+      </Routes>
+   
     </div>
   );
 }
