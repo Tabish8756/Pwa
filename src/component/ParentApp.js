@@ -7,7 +7,7 @@ const ParentApp = () => {
   return (
     <div>
       <h1>Pwa App 2</h1>
-      <button onClick={handleApp}>Create Health Id</button>
+      <button onClick={handleApp}>Create Health</button>
     </div>
   );
 };
