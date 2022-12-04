@@ -2,7 +2,7 @@
 
 const ParentApp = () => {
   const handleApp = () => {
-    window.location.replace("https://superb-raindrop-1729e0.netlify.app") // parent to service
+    window.location.replace("https://master--superb-raindrop-1729e0.netlify.app/") // parent to service
   };
   return (
     <div>
