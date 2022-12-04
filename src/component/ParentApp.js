@@ -1,7 +1,6 @@
-import { useNavigate } from "react-router-dom";
+
 
 const ParentApp = () => {
-  const navigate = useNavigate();
   const handleApp = () => {
     window.location.replace("https://superb-raindrop-1729e0.netlify.app") // parent to service
   };
